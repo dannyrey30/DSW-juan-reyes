@@ -1,0 +1,65 @@
+body
+.titulo{
+    width: 1000px;
+    margin: 30px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu{
+    position: relative;
+    list-style: none;
+    padding: 0;
+    background: #F0B429;
+    max-width: 1500px;
+    margin: auto;
+    
+}
+
+.menu li {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+
+}
+.menu li{
+    display:inline-block;
+    text-align: center;
+
+}
+.menu li a:hover{
+    background-color: blanchedalmond;
+    
+    
+}
+
+.submenu{
+    position: absolute;
+    background: #b3b3b3;
+    width: 120px;
+    display: none;
+    
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #333333;
+    font-family: open sans-serif;
+    text-decoration: none;
+
+}
+
+.menu li:hover .submenu{
+    display: block;
+    margin: center;
+}
+
+iframe{
+    width: 20%;
+    height: 30%;
+}
+.tabla{
+    width: 80%;
+    margin: 40px;
+}
