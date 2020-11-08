@@ -9,8 +9,8 @@ body
     position: relative;
     list-style: none;
     padding: 0;
-    background: #F0B429;
-    max-width: 1500px;
+    background: #F0B428;
+    max-width: 1000px;
     margin: auto;
     
 }
@@ -62,4 +62,47 @@ iframe{
 .tabla{
     width: 80%;
     margin: 40px;
+}
+
+.video1{
+    position: relative;
+    padding-bottom: 50.25%;
+}
+.video1{
+    position: absolute;
+    width: 300%;
+    height: 200%;
+}
+
+.video2{
+    position: relative;
+    padding-bottom: 50.25%;
+    
+}
+.video2{
+    position: absolute;
+    width: 300%;
+    height: 200%;
+}
+
+.video3{
+    position: relative;
+    padding-bottom: 50.25%;
+    
+}
+.video3{
+    position: absolute;
+    width: 300%;
+    height: 200%;
+}
+
+.manual{
+    position: relative;
+    padding-bottom: 50.25%;
+    
+}
+.manual{
+    position: absolute;
+    width: 300%;
+    height: 200%;
 }
