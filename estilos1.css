@@ -3,6 +3,7 @@ body
     width: 1000px;
     margin: 30px auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 .menu{
@@ -29,6 +30,9 @@ body
 }
 .menu li a:hover{
     background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
     
     
 }
@@ -39,20 +43,26 @@ body
     width: 120px;
     display: none;
     
+    
+    
+    
 }
 
 .submenu li a{
     display: block;
-    padding: 15px;
+    padding: 5px;
     color: #333333;
     font-family: open sans-serif;
     text-decoration: none;
+    
 
 }
 
 .menu li:hover .submenu{
     display: block;
     margin: center;
+    position: absolute;
+    min-width: 130px;
 }
 
 iframe{
@@ -106,3 +116,21 @@ iframe{
     width: 300%;
     height: 200%;
 }
+.Actividad01{
+    position: absolute;
+    width: 400%;
+    height: 350%;
+}
+.Actividad02{
+    position: absolute;
+    width: 400%;
+    height: 350%;
+}
+.Matriz{
+    position: absolute;
+    width: 300%;
+    height: 200%;
+}
+
+
+
