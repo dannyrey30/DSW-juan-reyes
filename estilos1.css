@@ -105,6 +105,16 @@ iframe{
     width: 300%;
     height: 200%;
 }
+.video4{
+    position: relative;
+    padding-bottom: 50.25%;
+   
+}
+.video4{
+    position: absolute;
+    width: 300%;
+    height: 200%;
+}
 
 .manual{
     position: relative;
@@ -132,5 +142,13 @@ iframe{
     height: 200%;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container-img{
+    width: 300px;
+    float: left;
+}
 
 
